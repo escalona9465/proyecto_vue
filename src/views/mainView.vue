@@ -1,13 +1,15 @@
 <template>
-<div class="container">
-    <Sidebar></Sidebar>
-    <div class="content">
-        <RouterView></RouterView>
+    <Header></Header>
+    <div class="container">
+        <Sidebar></Sidebar>
+        <div class="content">
+            <RouterView></RouterView>
+        </div>
     </div>
-</div>
 </template>
 <script setup>
 import Sidebar from '@/components/sidebar.vue';
+import Header from '@/components/Header.vue';
 
 </script>
 <style scoped>

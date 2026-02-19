@@ -1,7 +1,7 @@
 <template>
   <mainView></mainView>
-<Contador></Contador>
-<ListaDeTareas></ListaDeTareas>
+  <!-- <Contador></Contador>
+  <ListaDeTareas></ListaDeTareas> -->
 </template>
 
 <script setup>
