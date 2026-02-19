@@ -4,6 +4,7 @@
     <ul>
         <li><RouterLink to="/contador">Contador</RouterLink></li>
         <li><RouterLink to="/lista-de-tareas">Lista de Tareas</RouterLink></li>
+        <li><RouterLink to="/registrar">Registrar</RouterLink></li>
     </ul>
 </div>
 </template>
@@ -12,7 +13,7 @@ import router from '@/router';
 
 
 </script>
-<style>
+<style scoped>
 .sidebar {
     width: 200px;
     background-color: #f0f0f0;

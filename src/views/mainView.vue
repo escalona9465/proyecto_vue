@@ -8,9 +8,9 @@
 </template>
 <script setup>
 import Sidebar from '@/components/sidebar.vue';
-import sidebar from '@/components/sidebar.vue';
+
 </script>
-<style>
+<style scoped>
 .container {
     display: flex;
 }
